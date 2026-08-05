@@ -1,70 +1,26 @@
 <div align="center">
 
-# UMER KHAN
+<img src="./assets/banner.svg" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Initializing+System...;Loading+Repositories...;Loading+Projects...;System+Ready.;Welcome+to+my+GitHub."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+Software...;Exploring+Artificial+Intelligence...;Creating+Digital+Experiences...;Always+Learning..."/>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%"/>
 
-```console
-> boot --system
+<img src="./assets/terminal.svg" width="100%"/>
 
-Loading profile...
-
-██████████████████████ 100%
-
-Loading repositories...
-
-██████████████████████ 100%
-
-Loading creativity...
-
-██████████████████████ 100%
-
-Launching interface...
-
-Done.
-```
-
-```bash
-Black-Ace18@github:~$ whoami
-
-Umer Khan
-
-Software Engineering Student
-
-Interested in AI
-
-Building software one project at a time.
-```
-
-```bash
-Black-Ace18@github:~$ pwd
-
-/Pakistan/SoftwareEngineering/AI
-```
-
-```bash
-Black-Ace18@github:~$ ls
-
-spotify-clone/
-
-shadow-strategist/
-
-portfolio/
-
-javascript/
-
-future-projects/
-```
+<img src="./assets/divider.svg" width="100%"/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,python,cpp,mongodb,mysql,git,github,vscode,figma&perline=7">
+## TECH STACK
+
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,python,cpp,mongodb,mysql,git,github,vscode,figma&perline=7"/>
 
 </div>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ```cpp
 while(alive){
@@ -80,29 +36,83 @@ while(alive){
 }
 ```
 
+<img src="./assets/divider.svg" width="100%"/>
+
+## PROJECT DIRECTORY
+
 ```text
-📁 Projects
-
-│
-
-├── Spotify Clone
-
-├── Shadow Strategist
-
-├── Portfolio
-
-├── JavaScript Practice
-
+.
+├── Rogue-Mentor
+├── Shadow-Strategist
+├── Spotify-Clone
+├── Custom-ROMs
+├── NFT-Development
 └── More Coming...
 ```
 
+<img src="./assets/divider.svg" width="100%"/>
+
+## NETWORK
+
 ```yaml
 portfolio:
-  https://umerkhan.framer.website
+    https://umerkhan.framer.website
 
 linkedin:
-  https://linkedin.com/in/muhammedumerkhan
+    https://linkedin.com/in/muhammedumerkhan
 
 github:
-  https://github.com/Black-Ace18
+    https://github.com/Black-Ace18
 ```
+<img src="./assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+## CONTRIBUTION MAP
+
+<!-- We'll activate this after creating snake.yml -->
+
+<img src="https://raw.githubusercontent.com/Black-Ace18/Black-Ace18/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+### SYSTEM STATUS
+
+```text
+█████████████████████████████
+
+STATUS      :: ONLINE
+
+LOCATION    :: Pakistan
+
+EDITOR      :: VS Code
+
+FOCUS       :: Software Engineering
+
+MISSION     :: Build Better Software
+
+█████████████████████████████
+```
+
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+### END OF TRANSMISSION
+
+```
+Connection Established...
+
+Thanks for visiting.
+
+See you again.
+
+```
+
+</div>
