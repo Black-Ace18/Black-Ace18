@@ -36,6 +36,8 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
+## LOGOUT
+
 <p align="center">
   <img src="./assets/logout.svg" width="100%">
 </p>
