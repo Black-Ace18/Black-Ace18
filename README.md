@@ -12,7 +12,7 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## TERMINAL :: STACK
+## STACK
 
 <p align="center">
   <img src="assets/stack.svg" alt="Tech Stack" width="100%">
@@ -20,82 +20,22 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-```cpp
-class Umer {
+## PROJECTS
 
-public:
-
-    void everyday() {
-
-        Learn();
-
-        Build();
-
-        Fail();
-
-        Improve();
-
-        Repeat();
-
-    }
-
-};
-
-int main() {
-
-    Umer me;
-
-    while(true)
-        me.everyday();
-
-}
-```
-
-<img src="./assets/divider.svg" width="100%"/>
-
-## FILE SYSTEM
-
-```text
-.
-├── Rogue-Mentor/
-├── Shadow-Strategist/
-├── Spotify-Clone/
-├── Custom-ROMs/
-├── NFT-Development/
-└── More-Coming/
-```
+<p align="center">
+  <img src="./assets/project.svg" width="100%">
+</p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
 ## CONNECTIONS
 
-```yaml
-Portfolio:
-  https://umerkhan.framer.website
-
-LinkedIn:
-  https://linkedin.com/in/muhammedumerkhan
-
-GitHub:
-  https://github.com/Black-Ace18
-```
+<p align="center">
+  <img src="./assets/connection.svg" width="100%">
+</p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-<div align="center">
-
-### END OF TRANSMISSION
-
-```text
-Connection Established...
-
-No fancy statistics.
-No meaningless badges.
-
-Just code.
-Just progress.
-
-See you again.
-```
-
-</div>
+<p align="center">
+  <img src="./assets/end.svg" width="100%">
+</p>
