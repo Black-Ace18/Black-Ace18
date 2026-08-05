@@ -12,93 +12,88 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-<div align="center">
+## TERMINAL :: STACK
 
-## TECH STACK
+```bash
+Black-Ace18@github:~$ stack
 
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,python,cpp,mongodb,mysql,git,github,vscode,figma&perline=7"/>
+HTML             ████████████████░   95%
+CSS              ██████████████░░░   88%
+JavaScript       ████████████░░░░░   80%
+Python           ██████████░░░░░░░   72%
+C++              ██████████░░░░░░░   70%
+Git              ██████████████░░░   90%
 
-</div>
+Node.js          ████████░░░░░░░░░   Learning
+React            ██████░░░░░░░░░░░   Learning
+MongoDB          █████░░░░░░░░░░░░   Learning
+
+AI & LLMs        ███████░░░░░░░░░░   Exploring
+Custom ROMs      ████████████████░   Expert
+NFT Development  ████████████░░░░░   Experienced
+```
 
 <img src="./assets/divider.svg" width="100%"/>
 
 ```cpp
-while(alive){
+class Umer {
 
-    learn();
+public:
 
-    build();
+    void everyday() {
 
-    improve();
+        Learn();
 
-    repeat();
+        Build();
+
+        Fail();
+
+        Improve();
+
+        Repeat();
+
+    }
+
+};
+
+int main() {
+
+    Umer me;
+
+    while(true)
+        me.everyday();
 
 }
 ```
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## PROJECT DIRECTORY
+## FILE SYSTEM
 
 ```text
 .
-├── Rogue-Mentor
-├── Shadow-Strategist
-├── Spotify-Clone
-├── Custom-ROMs
-├── NFT-Development
-└── More Coming...
+├── Rogue-Mentor/
+├── Shadow-Strategist/
+├── Spotify-Clone/
+├── Custom-ROMs/
+├── NFT-Development/
+└── More-Coming/
 ```
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## NETWORK
+## CONNECTIONS
 
 ```yaml
-portfolio:
-    https://umerkhan.framer.website
+Portfolio:
+  https://umerkhan.framer.website
 
-linkedin:
-    https://linkedin.com/in/muhammedumerkhan
+LinkedIn:
+  https://linkedin.com/in/muhammedumerkhan
 
-github:
-    https://github.com/Black-Ace18
+GitHub:
+  https://github.com/Black-Ace18
 ```
-<img src="./assets/divider.svg" width="100%"/>
-
-<div align="center">
-
-## CONTRIBUTION MAP
-
-<!-- We'll activate this after creating snake.yml -->
-
-<img src="https://raw.githubusercontent.com/Black-Ace18/Black-Ace18/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
-<img src="./assets/divider.svg" width="100%"/>
-
-<div align="center">
-
-### SYSTEM STATUS
-
-```text
-█████████████████████████████
-
-STATUS      :: ONLINE
-
-LOCATION    :: Pakistan
-
-EDITOR      :: VS Code
-
-FOCUS       :: Software Engineering
-
-MISSION     :: Build Better Software
-
-█████████████████████████████
-```
-
-</div>
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -106,13 +101,17 @@ MISSION     :: Build Better Software
 
 ### END OF TRANSMISSION
 
-```
+```text
 Connection Established...
 
-Thanks for visiting.
+No fancy statistics.
+No meaningless badges.
+
+Just code.
+Just projects.
+Just progress.
 
 See you again.
-
 ```
 
 </div>
