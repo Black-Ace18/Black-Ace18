@@ -37,5 +37,5 @@
 <img src="./assets/divider.svg" width="100%"/>
 
 <p align="center">
-  <img src="./assets/end.svg" width="100%">
+  <img src="./assets/logout.svg" width="100%">
 </p>
