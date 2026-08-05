@@ -513,40 +513,6 @@ $
 
 </text>
 
-<text
-
-x="390"
-
-y="625"
-
-font-size="22"
-
-fill="#D1FAE5"
-
-font-family="JetBrains Mono">
-  
-git status
-
-</text>
-
-<text
-x="95"
-y="655"
-font-size="18"
-fill="#4ADE80"
-font-family="JetBrains Mono">
-On branch main
-</text>
-
-<text
-x="95"
-y="682"
-font-size="18"
-fill="#D4D4D4"
-font-family="JetBrains Mono">
-Working tree clean.
-</text>
-
 <!-- Blinking Cursor -->
 <rect
 x="515"
