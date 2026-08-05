@@ -241,7 +241,6 @@ C++
 
 </text>
 
-
 <rect x="300"
 y="478"
 width="700"
@@ -249,14 +248,12 @@ height="22"
 rx="11"
 fill="#173049"/>
 
-
 <rect x="300"
 y="478"
 width="490"
 height="22"
 rx="11"
 fill="url(#purple)"/>
-
 
 <text x="1040"
 y="500"
@@ -270,53 +267,10 @@ font-size="20">
 
 
 
-
-<!-- Git -->
-
-<text x="80"
-y="570"
-fill="white"
-font-family="monospace"
-font-size="22">
-
-Git
-
-</text>
-
-
-<rect x="300"
-y="548"
-width="700"
-height="22"
-rx="11"
-fill="#173049"/>
-
-
-<rect x="300"
-y="548"
-width="630"
-height="22"
-rx="11"
-fill="url(#cyan)"/>
-
-
-<text x="1040"
-y="570"
-fill="#7dd3fc"
-font-family="monospace"
-font-size="20">
-
-90%
-
-</text>
-
-
-
-
 <!-- Node.js -->
 
 <text x="80"
-y="640"
+y="570"
 fill="white"
 font-family="monospace"
 font-size="22">
@@ -327,7 +281,7 @@ Node.js
 
 
 <rect x="300"
-y="618"
+y="548"
 width="700"
 height="22"
 rx="11"
@@ -335,7 +289,7 @@ fill="#173049"/>
 
 
 <rect x="300"
-y="618"
+y="548"
 width="350"
 height="22"
 rx="11"
@@ -343,22 +297,21 @@ fill="url(#purple)"/>
 
 
 <text x="1040"
-y="640"
+y="570"
 fill="#7dd3fc"
 font-family="monospace"
 font-size="20">
 
-Learning
+80%
 
 </text>
-
 
 
 
 <!-- React -->
 
 <text x="80"
-y="690"
+y="640"
 fill="white"
 font-family="monospace"
 font-size="22">
@@ -369,7 +322,7 @@ React
 
 
 <rect x="300"
-y="668"
+y="618"
 width="700"
 height="22"
 rx="11"
@@ -377,7 +330,7 @@ fill="#173049"/>
 
 
 <rect x="300"
-y="668"
+y="618"
 width="300"
 height="22"
 rx="11"
@@ -385,12 +338,12 @@ fill="url(#cyan)"/>
 
 
 <text x="1040"
-y="690"
+y="640"
 fill="#7dd3fc"
 font-family="monospace"
 font-size="20">
 
-Learning
+70%
 
 </text>
 <!-- Footer -->
@@ -406,6 +359,7 @@ text-anchor="middle"
 fill="#00E5FF"
 font-family="monospace"
 font-size="18">
+
 
 BUILD • LEARN • IMPROVE • REPEAT
 
