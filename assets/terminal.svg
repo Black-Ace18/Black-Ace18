@@ -1,195 +1,526 @@
-git status
+<?xml version="1.0" encoding="UTF-8"?>
 
-</text>
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1280"
+height="720"
+viewBox="0 0 1280 720">
 
-<text
-x="95"
-y="665"
-font-size="18"
-fill="#4ADE80"
-font-family="JetBrains Mono">
+<defs>
 
-On branch main
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
 
-</text>
+<stop offset="0%" stop-color="#05070B"/>
+<stop offset="100%" stop-color="#0B1323"/>
 
-<text
-x="95"
-y="692"
-font-size="18"
-fill="#FFFFFF"
-font-family="JetBrains Mono">
+</linearGradient>
 
-Working tree clean.
+<filter id="glow">
 
-</text>
+<feGaussianBlur stdDeviation="4" result="blur"/>
 
-<!-- Blinking Cursor -->
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<linearGradient id="header"
+x1="0%"
+y1="0%"
+x2="0%"
+y2="100%">
+
+<stop offset="0%" stop-color="#23272F"/>
+
+<stop offset="100%" stop-color="#171B22"/>
+
+</linearGradient>
+
+</defs>
+
+<!-- Background -->
 
 <rect
+width="1280"
+height="720"
+fill="#02040A"/>
 
-x="510"
+<!-- Window -->
 
-y="609"
+<rect
+x="60"
+y="40"
+rx="18"
+ry="18"
+width="1160"
+height="640"
+fill="url(#bg)"
+stroke="#1E3A5F"
+stroke-width="2"/>
 
-width="10"
+<!-- Header -->
 
+<rect
+x="60"
+y="40"
+rx="18"
+ry="18"
+width="1160"
+height="52"
+fill="url(#header)"/>
+
+<!-- Fix rounded bottom -->
+
+<rect
+x="60"
+y="70"
+width="1160"
 height="22"
+fill="url(#header)"/>
 
-fill="#00E5FF">
-
-<animate
-
-attributeName="opacity"
-
-values="1;0;1"
-
-dur="1s"
-
-repeatCount="indefinite"/>
-
-</rect>
-
-<!-- Bottom Status Bar -->
-
-<rect
-
-x="60"
-
-y="650"
-
-width="1160"
-
-height="30"
-
-fill="#09121D"/>
-
-<text
-
-x="80"
-
-y="670"
-
-font-size="14"
-
-fill="#7DD3FC"
-
-font-family="JetBrains Mono">
-
-main
-
-</text>
-
-<text
-
-x="170"
-
-y="670"
-
-font-size="14"
-
-fill="#7DD3FC"
-
-font-family="JetBrains Mono">
-
-UTF-8
-
-</text>
-
-<text
-
-x="270"
-
-y="670"
-
-font-size="14"
-
-fill="#7DD3FC"
-
-font-family="JetBrains Mono">
-
-SVG
-
-</text>
-
-<text
-
-x="1110"
-
-y="670"
-
-font-size="14"
-
-fill="#7DD3FC"
-
-font-family="JetBrains Mono">
-
-SYSTEM ONLINE
-
-</text>
-
-<!-- Floating particle -->
+<!-- macOS buttons -->
 
 <circle
-cx="1100"
-cy="180"
-r="2"
-fill="#00E5FF">
-
-<animate
-attributeName="cy"
-values="180;140;180"
-dur="5s"
-repeatCount="indefinite"/>
-
-<animate
-attributeName="opacity"
-values=".2;1;.2"
-dur="5s"
-repeatCount="indefinite"/>
-
-</circle>
+cx="95"
+cy="66"
+r="7"
+fill="#FF5F57"/>
 
 <circle
-cx="1030"
-cy="250"
-r="1.5"
-fill="#7DD3FC">
+cx="120"
+cy="66"
+r="7"
+fill="#FEBC2E"/>
 
-<animate
-attributeName="cy"
-values="250;220;250"
-dur="6s"
-repeatCount="indefinite"/>
+<circle
+cx="145"
+cy="66"
+r="7"
+fill="#28C840"/>
 
-</circle>
+<!-- Window title -->
 
-<!-- Scan line -->
+<text
 
-<rect
+x="640"
 
-x="60"
+y="72"
 
-y="90"
+font-size="16"
 
-width="1160"
+text-anchor="middle"
 
-height="2"
+fill="#8FB8FF"
+
+font-family="JetBrains Mono">
+
+terminal
+
+</text>
+
+<!-- Prompt -->
+
+<text
+
+x="95"
+
+y="140"
+
+font-size="22"
 
 fill="#00E5FF"
 
-opacity=".15">
+font-family="JetBrains Mono"
 
-<animate
+filter="url(#glow)">
 
-attributeName="y"
+Black-Ace18@github
 
-values="90;640;90"
+</text>
 
-dur="7s"
+<text
 
-repeatCount="indefinite"/>
+x="335"
 
-</rect>
+y="140"
 
-</svg>
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+:
+
+</text>
+
+<text
+
+x="350"
+
+y="140"
+
+font-size="22"
+
+fill="#60A5FA"
+
+font-family="JetBrains Mono">
+
+~
+
+</text>
+
+<text
+
+x="368"
+
+y="140"
+
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+$
+
+</text>
+
+<!-- command -->
+
+<text
+
+x="390"
+
+y="140"
+
+font-size="22"
+
+fill="#D1FAE5"
+
+font-family="JetBrains Mono">
+
+whoami
+
+</text>
+
+<!-- output -->
+
+<text
+
+x="95"
+
+y="190"
+
+font-size="20"
+
+fill="#D4D4D4"
+
+font-family="JetBrains Mono">
+
+Umer Khan
+
+</text>
+
+<text
+
+x="95"
+
+y="225"
+
+font-size="20"
+
+fill="#7DD3FC"
+
+font-family="JetBrains Mono">
+
+Software Engineering Student
+
+</text>
+
+<text
+
+x="95"
+
+y="260"
+
+font-size="20"
+
+fill="#7DD3FC"
+
+font-family="JetBrains Mono">
+
+Learning Full Stack Development
+
+</text>
+
+<text
+
+x="95"
+
+y="295"
+
+font-size="20"
+
+fill="#7DD3FC"
+
+font-family="JetBrains Mono">
+
+Exploring Artificial Intelligence
+
+</text>
+
+<!-- Second Prompt -->
+
+<text
+
+x="95"
+
+y="360"
+
+font-size="22"
+
+fill="#00E5FF"
+
+font-family="JetBrains Mono"
+
+filter="url(#glow)">
+
+Black-Ace18@github
+
+</text>
+
+<text
+
+x="335"
+
+y="360"
+
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+:
+
+</text>
+
+<text
+
+x="350"
+
+y="360"
+
+font-size="22"
+
+fill="#60A5FA"
+
+font-family="JetBrains Mono">
+
+~
+
+</text>
+
+<text
+
+x="368"
+
+y="360"
+
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+$
+
+</text>
+
+<text
+
+x="390"
+
+y="360"
+
+font-size="22"
+
+fill="#D1FAE5"
+
+font-family="JetBrains Mono">
+
+ls
+
+</text>
+
+<!-- folders -->
+
+<text
+
+x="120"
+
+y="410"
+
+font-size="20"
+
+fill="#38BDF8"
+
+font-family="JetBrains Mono">
+
+📁 Rogue-Mentor
+
+</text>
+
+<text
+
+x="120"
+
+y="445"
+
+font-size="20"
+
+fill="#38BDF8"
+
+font-family="JetBrains Mono">
+
+📁 shadow-strategist
+
+</text>
+
+<text
+
+x="120"
+
+y="480"
+
+font-size="20"
+
+fill="#38BDF8"
+
+font-family="JetBrains Mono">
+
+📁 portfolio
+
+</text>
+
+<text
+
+x="120"
+
+y="515"
+
+font-size="20"
+
+fill="#38BDF8"
+
+font-family="JetBrains Mono">
+
+📁 Custom ROMs
+
+</text>
+
+<text
+
+x="120"
+
+y="550"
+
+font-size="20"
+
+fill="#38BDF8"
+
+font-family="JetBrains Mono">
+
+📁 NFT Development
+
+</text>
+
+<!-- Third prompt -->
+
+<text
+
+x="95"
+
+y="625"
+
+font-size="22"
+
+fill="#00E5FF"
+
+font-family="JetBrains Mono"
+
+filter="url(#glow)">
+
+Black-Ace18@github
+
+</text>
+
+<text
+
+x="335"
+
+y="625"
+
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+:
+
+</text>
+
+<text
+
+x="350"
+
+y="625"
+
+font-size="22"
+
+fill="#60A5FA"
+
+font-family="JetBrains Mono">
+
+~
+
+</text>
+
+<text
+
+x="368"
+
+y="625"
+
+font-size="22"
+
+fill="#FFFFFF"
+
+font-family="JetBrains Mono">
+
+$
+
+</text>
+
+<text
+
+x="390"
+
+y="625"
+
+font-size="22"
+
+fill="#D1FAE5"
+
+font-family="JetBrains Mono">
