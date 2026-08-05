@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1280"
+     height="500"
+     viewBox="0 0 1280 500">
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#04070C"/>
+<stop offset="100%" stop-color="#091424"/>
+
+</linearGradient>
+
+<filter id="glow">
+
+<feGaussianBlur stdDeviation="3" result="blur"/>
+
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+width="1280"
+height="500"
+rx="18"
+fill="url(#bg)"
+stroke="#163D63"
+stroke-width="2"/>
+
+<!-- Header -->
+
+<text
+x="60"
+y="55"
+fill="#00E5FF"
+font-size="28"
+font-family="JetBrains Mono, monospace"
+filter="url(#glow)">
+
+Black-Ace18@github:~$ logout
+
+</text>
+
+<line
+x1="50"
+y1="75"
+x2="1230"
+y2="75"
+stroke="#184B75"/>
+
+<!-- Shutdown Sequence -->
+
+<text x="80" y="130"
+fill="#00E5FF"
+font-size="22"
+font-family="JetBrains Mono">
+
+Stopping active services...
+
+</text>
+
+<text x="110" y="180"
+fill="#FFFFFF"
+font-size="20"
+font-family="JetBrains Mono">
+
+✓ Repositories cached
+
+</text>
+
+<text x="110" y="220"
+fill="#FFFFFF"
+font-size="20"
+font-family="JetBrains Mono">
+
+✓ Projects synchronized
+
+</text>
+
+<text x="110" y="260"
+fill="#FFFFFF"
+font-size="20"
+font-family="JetBrains Mono">
+
+✓ AI modules unloaded
+
+</text>
+
+<text x="110" y="300"
+fill="#FFFFFF"
+font-size="20"
+font-family="JetBrains Mono">
+
+✓ Network connection closed
+
+</text>
+
+<!-- Progress Bar -->
+
+<rect
+x="80"
+y="350"
+width="1120"
+height="18"
+rx="9"
+fill="#173049"/>
+
+<rect
+x="80"
+y="350"
+width="1120"
+height="18"
+rx="9"
+fill="#00E5FF">
+
+<animate
+attributeName="width"
+values="1120;0"
+dur="4s"
+fill="freeze"/>
+
+</rect>
+
+<!-- Goodbye -->
+
+<text
+x="640"
+y="430"
+text-anchor="middle"
+fill="#00E5FF"
+font-size="26"
+font-family="JetBrains Mono"
+filter="url(#glow)">
+
+System Powered Down
+
+</text>
+
+<text
+x="640"
+y="465"
+text-anchor="middle"
+fill="#7DD3FC"
+font-size="18"
+font-family="JetBrains Mono">
+
+Thanks for visiting. See you in the next commit.
+
+</text>
+
+</svg>
