@@ -108,7 +108,6 @@ No fancy statistics.
 No meaningless badges.
 
 Just code.
-Just projects.
 Just progress.
 
 See you again.
