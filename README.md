@@ -14,24 +14,9 @@
 
 ## TERMINAL :: STACK
 
-```bash
-Black-Ace18@github:~$ stack
-
-HTML             ████████████████░   95%
-CSS              ██████████████░░░   88%
-JavaScript       ████████████░░░░░   80%
-Python           ██████████░░░░░░░   72%
-C++              ██████████░░░░░░░   70%
-Git              ██████████████░░░   90%
-
-Node.js          ████████░░░░░░░░░   Learning
-React            ██████░░░░░░░░░░░   Learning
-MongoDB          █████░░░░░░░░░░░░   Learning
-
-AI & LLMs        ███████░░░░░░░░░░   Exploring
-Custom ROMs      ████████████████░   Expert
-NFT Development  ████████████░░░░░   Experienced
-```
+<p align="center">
+  <img src="assets/stack.svg" alt="Tech Stack" width="100%">
+</p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
