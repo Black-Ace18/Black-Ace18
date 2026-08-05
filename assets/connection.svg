@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1280"
+     height="420"
+     viewBox="0 0 1280 420">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#04070C"/>
+<stop offset="100%" stop-color="#0C1629"/>
+</linearGradient>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+width="1280"
+height="420"
+rx="18"
+fill="url(#bg)"
+stroke="#163D63"
+stroke-width="2"/>
+
+<!-- Header -->
+
+<text
+x="60"
+y="55"
+fill="#00E5FF"
+font-size="28"
+font-family="JetBrains Mono, monospace">
+
+Black-Ace18@github:~$ cat connections.yml
+
+</text>
+
+<line
+x1="50"
+y1="75"
+x2="1230"
+y2="75"
+stroke="#184B75"/>
+
+<!-- YAML -->
+
+<text
+x="80"
+y="130"
+fill="#7DD3FC"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+portfolio:
+
+</text>
+
+<text
+x="320"
+y="130"
+fill="#FFFFFF"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+https://umerkhan.framer.website
+
+</text>
+
+<text
+x="80"
+y="185"
+fill="#7DD3FC"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+linkedin:
+
+</text>
+
+<text
+x="320"
+y="185"
+fill="#FFFFFF"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+linkedin.com/in/muhammedumerkhan
+
+</text>
+
+<text
+x="80"
+y="240"
+fill="#7DD3FC"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+github:
+
+</text>
+
+<text
+x="320"
+y="240"
+fill="#FFFFFF"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+github.com/Black-Ace18
+
+</text>
+
+<text
+x="80"
+y="295"
+fill="#7DD3FC"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+status:
+
+</text>
+
+<text
+x="320"
+y="295"
+fill="#00E5FF"
+font-size="21"
+font-family="JetBrains Mono, monospace">
+
+available_for_collaboration
+
+</text>
+
+<!-- Right Panel -->
+
+<rect
+x="820"
+y="115"
+width="340"
+height="180"
+rx="10"
+fill="#08111C"
+stroke="#1C507E"/>
+
+<text
+x="850"
+y="150"
+fill="#00E5FF"
+font-size="22"
+font-family="JetBrains Mono, monospace">
+
+NETWORK
+
+</text>
+
+<line
+x1="850"
+y1="165"
+x2="1130"
+y2="165"
+stroke="#1C507E"/>
+
+<text
+x="850"
+y="205"
+fill="#FFFFFF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+Protocol
+
+</text>
+
+<text
+x="1125"
+y="205"
+text-anchor="end"
+fill="#00E5FF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+HTTPS
+
+</text>
+
+<text
+x="850"
+y="240"
+fill="#FFFFFF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+Connection
+
+</text>
+
+<text
+x="1125"
+y="240"
+text-anchor="end"
+fill="#00E5FF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+SECURE
+
+</text>
+
+<text
+x="850"
+y="275"
+fill="#FFFFFF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+Response
+
+</text>
+
+<text
+x="1125"
+y="275"
+text-anchor="end"
+fill="#00E5FF"
+font-size="18"
+font-family="JetBrains Mono, monospace">
+
+200 OK
+
+</text>
+
+<line
+x1="50"
+y1="390"
+x2="1230"
+y2="390"
+stroke="#184B75"/>
+
+</svg>
