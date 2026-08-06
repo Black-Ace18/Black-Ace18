@@ -189,88 +189,10 @@ font-size="20">
 
 </text>
 
-
-
-<!-- Python -->
-
-<text x="80"
-y="430"
-fill="white"
-font-family="monospace"
-font-size="22">
-
-Python
-
-</text>
-
-
-<rect x="300"
-y="408"
-width="700"
-height="22"
-rx="11"
-fill="#173049"/>
-
-
-<rect x="300"
-y="408"
-width="520"
-height="22"
-rx="11"
-fill="url(#purple)"/>
-
-
-<text x="1040"
-y="430"
-fill="#7dd3fc"
-font-family="monospace"
-font-size="20">
-
-75%
-</text>
-
-<!-- C++ -->
-
-<text x="80"
-y="500"
-fill="white"
-font-family="monospace"
-font-size="22">
-
-C++
-
-</text>
-
-<rect x="300"
-y="478"
-width="700"
-height="22"
-rx="11"
-fill="#173049"/>
-
-<rect x="300"
-y="478"
-width="490"
-height="22"
-rx="11"
-fill="url(#purple)"/>
-
-<text x="1040"
-y="500"
-fill="#7dd3fc"
-font-family="monospace"
-font-size="20">
-
-70%
-
-</text>
-
-
-
 <!-- Node.js -->
 
 <text x="80"
-y="570"
+y="430"
 fill="white"
 font-family="monospace"
 font-size="22">
@@ -281,23 +203,22 @@ Node.js
 
 
 <rect x="300"
-y="548"
+y="408"
 width="700"
 height="22"
 rx="11"
 fill="#173049"/>
 
-
 <rect x="300"
-y="548"
-width="350"
+y="408"
+width="560"
 height="22"
 rx="11"
 fill="url(#purple)"/>
 
 
 <text x="1040"
-y="570"
+y="430"
 fill="#7dd3fc"
 font-family="monospace"
 font-size="20">
@@ -311,7 +232,7 @@ font-size="20">
 <!-- React -->
 
 <text x="80"
-y="640"
+y="500"
 fill="white"
 font-family="monospace"
 font-size="22">
@@ -322,7 +243,7 @@ React
 
 
 <rect x="300"
-y="618"
+y="478"
 width="700"
 height="22"
 rx="11"
@@ -330,12 +251,86 @@ fill="#173049"/>
 
 
 <rect x="300"
-y="618"
-width="300"
+y="478"
+width="530"
 height="22"
 rx="11"
 fill="url(#cyan)"/>
 
+
+<text x="1040"
+y="500"
+fill="#7dd3fc"
+font-family="monospace"
+font-size="20">
+
+78%
+
+</text>
+
+<!-- Python -->
+
+<text x="80"
+y="570"
+fill="white"
+font-family="monospace"
+font-size="22">
+
+Python
+
+</text>
+
+
+<rect x="300"
+y="548"
+width="700"
+height="22"
+rx="11"
+fill="#173049"/>
+
+
+<rect x="300"
+y="548"
+width="520"
+height="22"
+rx="11"
+fill="url(#purple)"/>
+
+
+<text x="1040"
+y="570"
+fill="#7dd3fc"
+font-family="monospace"
+font-size="20">
+
+75%
+</text>
+
+<!-- C++ -->
+
+<text x="80"
+y="640"
+fill="white"
+font-family="monospace"
+font-size="22">
+
+C++
+
+</text>
+
+<rect x="300"
+y="618"
+width="700"
+height="22"
+rx="11"
+fill="#173049"/>
+
+<rect x="300"
+y="618"
+width="490"
+height="22"
+rx="11"
+fill="url(#purple)"/>
 
 <text x="1040"
 y="640"
@@ -346,6 +341,10 @@ font-size="20">
 70%
 
 </text>
+
+
+
+
 <!-- Footer -->
 
 <line x1="60" y1="700"
